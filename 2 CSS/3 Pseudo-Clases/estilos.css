@@ -1,0 +1,32 @@
+p { width: 50%; }
+
+/*
+Al interactuar (Pseudoclase)
+se seleccionan mediante :
+*/
+
+/* Al pasar el raton */
+a:hover { background: #000000; }
+
+/* No visitados */
+a:link { color: #ff00ff; }
+
+/* Visitados */
+a:visited { color: #0000ff; }
+
+/* Mientras se le hace click */
+a:active { text-decoration: line-through; }
+
+/* Mientras está seleccionado */
+input[type="text"]:focus {
+    background: black;
+    color: white;
+}
+
+/* Primer línea */
+article p:first-line { background: cyan; }
+
+/* Números de elemento */
+article p:nth-child(2) { background: orange; }
+
+/* .formulario textarea:focus {} */

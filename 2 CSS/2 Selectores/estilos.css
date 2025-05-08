@@ -1,0 +1,38 @@
+/* Selector universal */
+* { background-color: #000; }
+
+
+
+/* Etiqueta */
+p { color: #fff; }
+h1, a { color: #ff0000; }
+
+/* Descentente - (No importa si hay elementos en medio) */
+div p { color: #ff00ff; }
+div > p { color: #fff; } /* Importa si hay elementos en medio */
+/*
+Los elementos de las lineas 23 y 24 heredan la proiedad,
+no obstante, se les aplica la regla 6 porque p está dentro de a.
+*/
+
+
+
+/* Clase */
+.amarillo { color: #ffff00; }
+.verde { color: #00ff00; }
+.grande { font-size: 30px; }
+
+
+
+/* Id */
+#rojo { color: #ff0000; }
+
+
+
+/* Atributo */
+[type="text"] { background: orange; }
+
+
+/* Etiqueta y atributo y clase y id */
+a[href].clase { color: #fff; }
+a[href="www.wikipedia.org"].clase#b { font-size: 10px; }

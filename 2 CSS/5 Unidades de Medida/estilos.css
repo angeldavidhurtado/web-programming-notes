@@ -1,0 +1,30 @@
+/*
+    Unidades Relativas
+    px - Pixel
+    em - Relativa al tamaño de fuente de su elemento padre
+    rem - Relativa al tamaño de fuente del body
+    % - Porcentaje
+
+    Unidades Absolutas (No se recomienda su uso)
+    in - inches (pulgadas)
+    cm - centimetros
+    mm - milimetros
+*/
+
+body {
+    font-size: 20px;
+}
+
+p {
+    font-size: 2em;
+}
+
+.padre {
+    font-size: 10px;
+}
+
+.hijo {
+    width: 20.5rem;
+    background: #000;
+    color: #fff;
+}

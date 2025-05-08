@@ -1,0 +1,48 @@
+p { width: 50%; }
+
+/* Elemetos seleccionado */
+*::selection {
+    background: #f9a03f;
+    color: #222;
+}
+
+/* Primer renglon */
+p::first-line {
+    font-style: italic;
+    color: purple;
+}
+
+/* Primer letra */
+p::first-letter {
+    font-style: normal;
+    font-size: 51px;
+    float: left;
+    color: purple;
+    margin-right: 3px;
+    line-height: 30px;
+}
+
+div {
+    width: 150px;
+    height: 150px;
+    background: #f9a03f;
+}
+
+/* Agregar contenido antes */
+div::before {
+    content: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.';
+    background: #3a3a3a;
+    color: #fff;
+}
+
+/* Agregar contenido despues */
+div::after {
+    content: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.';
+    display: block;
+    position: relative;
+    left: 100px;
+    background: green;
+    color: #fff;
+}
+
+/* Es obligatorio agregar content así esté en blanco */
