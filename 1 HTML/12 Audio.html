@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8" />
+        <title>Audio</title>
+    </head>
+
+    <body>
+        <!-- Debe agregarse controls para ver el reproductor -->
+        <audio src="Documentary Atmosphere.mp3" controls></audio>
+        <br />
+
+        <!-- Con este formato en caso de no cargar el primer source se intenta con el siguiente ... -->
+        <audio controls>
+            <source src="Documentary Atmosphere.mp3" type="audio/mpeg" />
+            <source src="Documentary Atmosphere.ogg" type="audio/ogg" />
+            <source src="Documentary Atmosphere.wav" type="audio/wav" />
+            <!--
+                Formato    Media Type
+                mp3        audio/mpeg
+                ogg        audio/ogg
+                wav        audio/wav
+            -->
+        </audio>
+    </body>
+</html>
