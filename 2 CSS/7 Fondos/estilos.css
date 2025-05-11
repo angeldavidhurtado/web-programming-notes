@@ -1,0 +1,58 @@
+body {
+    background: url('img/fondo.jpg');
+    /*
+    url('img/fondo.jpg') repeat/no-repeat fixed/scroll position; //position 1 o dos valores
+
+    url('img/fondo.jpg') repeat/no-repeat fixed/scroll position / cover;
+    url('img/fondo.jpg') repeat/no-repeat fixed/scroll position / contain content-box;
+    */
+    
+    background-size: cover;
+    /*
+    auto - tamaño real o comodin -> auto 100%
+
+    Ancho
+    100px
+    cover = 100%
+
+    Ancho Alto
+    100px/% 300px/% - Ancho Alto
+    contain - 100% ancho o alto según sea posible
+    */
+    background-repeat: no-repeat;
+    /*
+    repeat - por defecto
+    no-repeat
+    repeat-x
+    repeat-y
+    */
+    background-position: center center;
+    /*
+    center center
+    100px/% - x
+    100px/% 300px/% - x y
+    */
+    background-attachment: fixed;
+    /*
+    scroll
+    fixed
+    */
+}
+
+div {
+    width: 500px;
+    height: 500px;
+}
+
+.color {
+    background: #000;
+    /* background-color: #000; */
+}
+
+.fondoRepetido {
+    background: url('img/fondoReducido.jpg') #ff0000;
+    /*
+    Donde no hay imagen se usa ese color
+    */
+    background-repeat: no-repeat;
+}

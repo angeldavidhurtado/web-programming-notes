@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    /*
+    box-sizing: border-box;
+    Define cómo se calculan el ancho y el alto de un elemento
+    Incluyendo relleno y bordes, o no.
+    */
+}
+
+div {
+    width: 30%;
+    margin: 10px 20px 30px 80px;
+    padding: 10px;
+    background: #339955;
+    border-radius: 20px;
+    /*
+    En sentido horario, empesando por la escquina superior izquierda
+    border-radius: 10px 20px 30px 40px;
+    son validas las unidades de medida
+    */
+}
+
+p { background: #00ffff; }
+
+/*
+        Tamaño
+    width (ancho)
+    height (alto) Normalmente no se usa
+
+        Margen
+    margin: all;
+    margin: top-bottom right-left;
+    margin: top bottom right left;
+    margin-top
+    margin-right
+    margin-bottom
+    margin-left
+
+        Relleno
+    padding: all;
+    padding: top-bottom right-left;
+    --- --- --- padding: top left-right bottom; --- --- ---
+    padding: top bottom right left;
+    padding-top
+    padding-right
+    padding-bottom
+    padding-left
+
+        Borde
+    border
+*/
+
+.bordes {
+    width: 100%;
+    margin: 0;
+    background: none;
+    padding: 0;
+}
+
+.bordes div {
+    margin: 20px auto;
+    /* auto centra */
+    width: 70%;
+    height: 50px;
+    padding: 2.5%;
+}
+
+.borde0 {
+    border-top: 7px solid #000;
+    border-right: 7px dashed #000;
+    border-bottom: 7px dotted #000;
+    border-left: 7px double #000;
+}
+
+.borde1 { border: 7px groove #000; }
+.borde2 { border: 7px ridge #000; }
+.borde3 { border: 7px inset #000; }
+.borde4 { border: 7px outset #000; }

@@ -1,0 +1,88 @@
+/* Fuentes */
+/* Agregar fuente */
+@font-face {
+    font-family: "LaTeX";
+    src: url('fuente/cmunrm.ttf');
+}
+
+/*
+@font-face {
+    font-family: "Fuente2";
+    src: url('fuente/Fuente2.ttf');
+}
+*/
+
+/*
+    <link rel="stylesheet" href="css/fuentes.css">
+    debe llamarse antes del archivo de estilos
+    <link rel="stylesheet" href="css/estilos.css">
+    agregar fuente desde google fonts
+*/
+
+
+p {
+    font-family: "LaTeX", verdana, "Times New Roman";
+    /*
+    Si es una fuente agregada debe ir entre ''
+    En caso de no cargar la primer opción continua con la siguiente ...
+    Las fuentes instaladas no necesariamente deben ir entre comillas, solo si el nombre tiene espacios
+    */
+    /*
+    font-weight: 100;
+    Tamaño de la fuente, este tamaño es como está echo la fuente
+    solo funciona si no se usa font-size
+    100 200 700
+    normal
+    */
+    font-size: 20px;
+
+    /* Italica */
+    font-style: normal;
+    /*
+    normal
+    italic
+    */
+
+    /* Negrita */
+    font-weight: normal;
+    /*
+    normal
+    bold
+    */
+
+    /* Subrayado */
+    text-decoration: underline;
+    /*
+    none
+    underline
+    line-through
+    */
+
+    /* Color fuente */
+    color: #ff00ff;
+
+    /* Alineación */
+    text-align: right;
+    /*
+    left
+    right
+    center
+    */
+
+    /*Mayusculas*/
+    text-transform: capitalize;
+    /*
+    uppercase - Mayusculas
+    lowercase - minusculas
+    capitalize - primer letra en mayuscula
+    */
+
+    /* Espacio entre caracteres */
+    letter-spacing: 2px;
+
+    /* Espacio entre palabras */
+    word-spacing: 5px;
+
+    /* Espacio entre renglones */
+    line-height: 30px;
+}

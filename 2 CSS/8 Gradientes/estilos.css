@@ -1,0 +1,50 @@
+div {
+    width: 500px;
+    height: 500px;
+}
+
+.fondo {
+    background:
+        linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%),
+        linear-gradient(127deg, rgba(0,255,0,.8), rgba(0,255,0,0) 70.71%),
+        linear-gradient(336deg, rgba(0,0,255,.8), rgba(0,0,255,0) 70.71%)
+    ;
+}
+
+
+/*
+Horizontal
+background: linear-gradient(to right, color %, color %, ...);
+
+Vertical
+background: linear-gradient(to bottom, color %, color %, ...);
+
+Diagonal Abajo-Derecha
+background: linear-gradient(to bottom right, color %, color %, ...);
+
+Diagonal Arriba-Derecha
+background: linear-gradient(to top right, color %, color %, ...);
+
+Ángulo
+background: linear-gradient(90deg, color %, color %, ...);
+
+Pueden usarse varios al tiempo:
+
+background:
+     linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%),
+     linear-gradient(127deg, rgba(0,255,0,.8), rgba(0,255,0,0) 70.71%),
+     linear-gradient(336deg, rgba(0,0,255,.8), rgba(0,0,255,0) 70.71%);
+
+Radial
+background: radial-gradient(ellipse at center, color %, color %, ...);
+background: radial-gradient(ellipse at left top, color %, color %, ...);
+background: radial-gradient(circle at center, color %, color %, ...);
+
+    longitud de la figura resultante
+background: radial-gradient(closest-side at 60% 55%, color %, color %, ...);
+
+closest-side 	La figura resultante coincide con el lado de la caja más cercano al centro (para los círculos) o coincide con los lados vertical y horizontal más cercanos al centro (en caso de elipses).
+closest-corner 	El tamaño de la figura resultante coincide exactamente con la esquina de la caja más cercana desde el centro del gradiente.
+farthest-side 	Similar a closest-side, excepto que el tamaño de la figura resultante coincide con el lado de la caja más lejano al centro (o los lados vertical y horizontal).
+farthest-corner 	El tamaño de la figura resultante coincide exactamente con la esquina de la caja más lejana al centro del gradiente.
+*/
