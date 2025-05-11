@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8">
+        <title>Inputs</title>
+    </head>
+
+    <body>
+        <form action="" method="">
+            <!-- Atributos
+                value="valor"
+                placeholder="Mensaje"
+                maxlength="Máximo de caracteres"
+                required - debe llenarlo
+                readonly - solo lectura, no permite escribir
+                disabled - desabilita el campo
+
+                name="" - sirve como identificador
+                id
+            -->
+
+            <input type="text">
+            <br />
+
+            <input type="email">
+            <br />
+
+            <textarea></textarea>
+            <br />
+
+            <label for="idPais">Pais</label> <!-- Dentro de for va el id del elemento a etiquetar -->
+            <!-- ConboBox -->
+            <select id="idPais">
+                <option value="colombia">Colombia</option>
+                <option value="venezuela">Venezuela</option>
+                <option value="ecuador">Ecuador</option>
+            </select>
+            <br />
+
+            <!-- Radio - Deben tener el mismo name -->
+            <input type="radio" name="genero" value="mujer" id="idMujer" /><label for="idMujer">Mujer</label>
+            <input type="radio" name="genero" value="hombre" id="idHombre" /><label for="idHombre">Hombre</label>
+            <br />
+
+            <input type="checkbox" id="idTerminos" /><label for="idTerminos">Terminos y condiciones</label>
+            <br />
+
+            <input type="password">
+            <br />
+
+            <input type="color">
+            <br />
+
+            <input type="number" name="numero">
+            <br />
+
+            <input type="range" name="rango">
+            <br />
+
+            <input type="url">
+            <br />
+
+            <input type="submit" value="Enviar">
+        </form>
+    </body>
+</html>
