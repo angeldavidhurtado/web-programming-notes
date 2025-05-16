@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #000500;
+}
+
+.galeria {
+    width: 150%;
+}
+
+.galeria img {
+    vertical-align: top; /* Quita espaciado superior */
+    width: 400px;
+    opacity: 0.5;
+    margin: 20px;
+    padding: 5px;
+    border: solid 1px #484848;
+}
+
+.galeria img:hover { opacity: 1; }

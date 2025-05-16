@@ -1,0 +1,35 @@
+/*
+sombra: x y intensidad color;
+*/
+
+h1 {
+    color: #fff;
+    text-shadow: 3px 3px 6px rgba(0, 0, 0, .5);
+    /*
+    Varias sombras
+    text-shadow:
+        3px 3px 6px rgba(0, 0, 0, .5),
+        0 0 6px rgba(255, 255, 255, .5),
+        -3px -3px 6px rgba(150, 150, 150, .5)
+        ;
+    */
+}
+/*
+textos
+text-shadow: 0 0 30px cyan;
+*/
+
+div {
+    background: #fff;
+    width: 300px;
+    height: 200px;
+    box-shadow: 3px 3px 6px #000000aa;
+    /*
+    Sombra interna
+    box-shadow: inset 3px 3px 6px #000000aa;
+    */
+}
+/*
+cajas
+box-shadow: 10px 0 30px cyan;
+*/

@@ -1,0 +1,18 @@
+/* Estilos de lista desordenada */
+.none { list-style: none; }
+.disc { list-style: disc; } /* predeterminado */
+.circle { list-style: circle; }
+.square { list-style: square; }
+.imagen { list-style-image: url('img/biñeta.jpg'); }
+
+/* Lista desordenada */
+.decimal{ list-style: decimal; }
+.decimal-leading-zero{ list-style: decimal-leading-zero; }
+.lower-roman{ list-style: lower-roman; }
+.upper-roman{ list-style: upper-roman; }
+.lower-latin{ list-style: lower-latin; }
+.upper-latin{ list-style: upper-latin; }
+
+/*
+Los estilos de lista ordenada y seordenada son compatibles
+*/
