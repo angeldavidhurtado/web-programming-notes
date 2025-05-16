@@ -1,0 +1,28 @@
+.contenedor {
+	display: grid;
+	grid-gap: 20px;
+}
+
+h2 {
+	text-align: center;
+	margin-top: 40px;
+}
+
+.fit {
+	grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+	/*
+	Cuando queda espacio vario las celdas abarcan todo lo que mas puedan
+	sin repetar en valor minimo de minmax, sino que en este caso con
+	auto-fit lo ignora
+	*/
+}
+
+.fill {
+	grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+	/*
+	Agrega tantas columnas como pueda porque
+	estamos con grid-template-COLUMNS
+	las que se desborden las coloca en la
+	siguiente fila
+	*/
+}

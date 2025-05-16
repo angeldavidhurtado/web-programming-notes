@@ -1,0 +1,23 @@
+.contenedor {
+	display: grid;
+	grid-gap: 20px;
+	grid-template-columns: repeat(3, 1fr);
+	grid-template-rows: repeat(3, 100px);
+
+	/* Tamaño del grupo de elementos */
+	justify-items: center; /* Horizontalmente */
+	align-items: center; /* Verticalmente */
+	/*
+	start - inicio
+	auto - lo máxmo
+	stretch - lo máxmo
+	center - centrar
+	end - final
+	*/
+}
+
+.contenedor .item {
+	/* Tamaño de elemento particular */
+	justify-self: stretch; /* start, center, end, stretch = 100% */
+	align-self: stretch;
+}

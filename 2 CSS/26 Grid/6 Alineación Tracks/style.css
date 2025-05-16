@@ -1,0 +1,22 @@
+.contenedor {
+	height: 450px;
+	display: grid;
+	grid-gap: 20px;
+	grid-template-columns: repeat(3, 100px);
+	grid-template-rows: repeat(3, 100px);
+
+	/* Horizontal */
+	justify-content: space-between;
+	/*
+	normal
+	start
+	center
+	end
+	space-around
+	space-between
+	space-evenly
+	*/
+
+	/* Vertical */
+	align-content: space-between;
+}

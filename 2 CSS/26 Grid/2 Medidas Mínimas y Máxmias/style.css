@@ -1,0 +1,12 @@
+.contenedor {
+	display: grid;
+	grid-gap: 20px;
+	grid-template-rows: minmax(150px, auto) repeat(3, 100px 50px);
+	grid-template-columns: 100px repeat(2, minmax(100px, 1fr));
+	/*
+	 * Al pedir más filas de las posibles
+	 * rellena con espacio en blanco
+	 *
+	 * grid-template-columns: se suele utilizar minmax(200px, auto);
+	 */
+}

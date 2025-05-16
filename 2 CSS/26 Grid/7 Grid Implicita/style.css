@@ -1,0 +1,32 @@
+.contenedor {
+	display: grid;
+	grid-gap: 20px;
+	grid-template-columns: repeat(3, 1fr);
+	grid-template-rows: 70px 70px 70px;
+
+	/* Tamaño de las filas implicitas */
+	grid-auto-rows: 200px;
+	
+	grid-auto-flow: column dense;
+	/*
+	row
+	column
+	row dense = dense
+	column dense
+	*/
+	/* Tamaño de las columnas implicitas */
+	grid-auto-columns: 200px;
+}
+
+.contenedor .span2 {
+	/* grid-column: span 2; */
+	grid-row: span 2;
+	background-color: slateblue;
+}
+
+.contenedor .span3 {
+	/* grid-column: span 3; */
+	grid-row: span 3;
+	background-color: turquoise;
+	color: black;
+}

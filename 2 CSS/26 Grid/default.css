@@ -1,0 +1,29 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+body { background-color: lavender; }
+
+.contenedor {
+	max-width: 1000px;
+	width: 90%;
+	margin: auto;
+	background-color: lemonchiffon;
+	border-radius: 14px;
+	margin-top: 20px;
+	font-size: 20px;
+	color: white;
+}
+
+.contenedor > div {
+	background-color: coral;
+	border-radius: 14px;
+	padding: 10px;
+	display: flex;
+	text-align: center;
+	align-items: center;
+	justify-content: center;
+}

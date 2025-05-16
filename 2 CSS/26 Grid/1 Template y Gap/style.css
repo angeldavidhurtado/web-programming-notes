@@ -1,0 +1,15 @@
+.contenedor {
+	display: grid;
+
+	grid-template-columns: 1fr 1fr 15% auto; /* tamaño de las columna */
+
+	grid-template-rows: 100px auto 125px;
+	/*
+	tamaño de las filas
+	los tamaños de filas son auto por defecto
+	para trabajar con fr en vertical, height,
+	se debe indicar un height al contenedor grid
+	*/
+
+	grid-gap: 20px; /* espacio entre las celdas*/
+}
