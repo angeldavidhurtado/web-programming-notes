@@ -1,0 +1,7 @@
+.no-ocupa-espacio {
+    visibility: hidden;
+}
+
+.ocupa-espacio {
+    display: none;
+}

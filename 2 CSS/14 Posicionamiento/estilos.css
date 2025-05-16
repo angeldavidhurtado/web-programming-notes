@@ -1,0 +1,92 @@
+/*
+    Posicionamiento
+Normal (static) - Posicionamiento por defecto (Este es el unico que no funciona z-index)
+Relativo (relative) - Mover desde su posición original
+Absoluto (absolute) - Respecto a su contenedor padre (si no tiene posicionamiento normal (static)), dibuja el objeto desde el margen
+Fijo (fixed) - Respecto a la pantalla
+
+
+
+    Ubicación
+top: ;
+left: ;
+bottom: ;
+right: ;
+en px tanto positivos como negativos y porcentajos en horizontal
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #f2f2f2;
+}
+
+.caja {
+    width: 200px;
+    height: 200px;
+    background: #0e6ba8;
+    margin: 20px;
+}
+
+.relativo {
+    background: #6695e8;
+    position: relative;
+    left: 200px;
+}
+
+.absoluto {
+    background: #90a9b7;
+    position: absolute;
+    margin: 0 20px;
+    bottom: 0;
+    right: 10%;
+}
+
+.fijo {
+    width: 400px;
+    height: 400px;
+    background: #f45b69;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+
+p {
+    font-family: Arial;
+    font-size: 25px;
+    color: #eee;
+    margin: 20px;
+    position: absolute;
+}
+
+.sobreponer {
+    width: 180px;
+    height: 180px;
+    background: #acd8aa;
+    position: absolute;
+    left: 150px;
+    top: 550px;
+    z-index: 0;
+}
+
+.sobreponer p {
+    position: relative;
+    color: #333;
+    text-align: right;
+}
+
+.subir {
+    background: #e78f8e;
+    position: relative;
+    z-index: 1;
+}
+
+/*
+z-index - indice z, indica que elemto va encima
+solo funciona en elementos con position distinta a static (normal)
+es decir, funciona con elementos posicionados Relativo (relative),
+Absoluto (absolute), Fijo (fixed)
+*/

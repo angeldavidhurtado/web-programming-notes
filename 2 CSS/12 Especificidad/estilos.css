@@ -1,0 +1,62 @@
+/*
+etiqueta 1
+.clase atributo 10
+#id 100
+!important 1000
+
+https://developer.mozilla.org/es/docs/Web/CSS/Especificidad
+https://www.lawebera.es/como-hacer/ejemplos-css/especificidad-hojas-de-estilo-css.php
+*/
+
+div {
+    margin: 20px 0;
+}
+
+.btn {
+    background: #32021f;
+    color: #fff;
+    font-size: 16px;
+    text-decoration: none;
+    display: inline-block;
+    padding: 15px 20px;
+    margin: 0 10px;
+}
+
+.btn:hover {
+    opacity: .8;
+}
+
+/*
+Las propiedades se van sobreescribiendo
+si tamaños estubiera al principio se
+sobreescribirian por .btn
+*/
+
+/* Tamaños */
+.small {
+    font-size: 14px;
+    padding: 10px 15px;
+}
+
+.medium {
+    font-size: 16px;
+    padding: 15px 20px;
+}
+
+.big {
+    font-size: 18px;
+    padding: 20px 25px;
+}
+
+.extra-big {
+    font-size: 20px;
+    padding: 25px 30px;
+}
+
+/* Colores */
+.azul { background: #246eb9; }
+.verde { background: #4fb566; }
+.naranja { background: #f9a03f; }
+
+/* Efectos */
+.border-radius { border-radius: 100px; }

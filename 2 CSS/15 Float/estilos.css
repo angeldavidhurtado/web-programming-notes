@@ -1,0 +1,65 @@
+/*
+    float se creó para posicionar texto alrededor de una imagen
+    no obstante, tambien puede usarse para opsicionar cajas
+*/
+
+/*
+Al flotar todos los elementos de padre, este desaparece
+Para erreglarlo hay 2 dormas, linea 41 y linea 21
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #f2f2f2;
+    font-family: Arial;
+    color: #eee;
+    font-size: 38px;
+}
+
+.padre {
+    background: #2e294a;
+    width: 700px;
+    /* Forma 2 */
+    overflow: hidden;
+}
+
+.caja {
+    width: 200px;
+    height: 200px;
+    background: #0e6ba8;
+    margin: 20px;
+}
+
+.cajaUno {
+    float: left;
+}
+
+.cajaDos {
+    float: right;
+}
+
+/*
+Forma 1
+.clear {
+    clear: both;
+}
+*/
+
+article {
+    margin-top: 20px;
+    padding: 30px;
+    width: 700px;
+    font-size: 20px;
+    background: #4062bb;
+}
+
+article img {
+    width: 300px;
+    float: left;
+    margin-bottom: 30px;
+    margin-right: 30px;
+}

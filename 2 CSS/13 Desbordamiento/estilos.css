@@ -1,0 +1,45 @@
+/*
+La propiedad de desbordamiento especifica qué debe suceder
+si el contenido desborda el cuadro de un elemento.
+
+Esta propiedad especifica si se debe recortar el contenido
+o agregar barras de desplazamiento cuando el contenido de
+un elemento es demasiado grande para caber en un área específica.
+
+Nota: La propiedad de desbordamiento solo funciona para
+elementos de bloque con una altura especificada.
+*/
+
+
+body {
+    font-family: Arial, Sans-Serif;
+    background: #f2f2f2;
+}
+
+div {
+    background: #4fb560;
+    margin: 20px 0;
+    width: 200px;
+    height: 200px;
+}
+
+.margen { margin-top: 150px; }
+
+.horizontal { width: 600px; }
+
+
+
+/* Por defecto */
+.visible { overflow: visible; }
+
+/*
+Oculta el desbordamiento, oculta los sobrantes, pero si el
+desbordamiento es generado con float se ajusta al contenido
+*/
+.hidden { overflow: hidden; }
+
+/* Scrool en ambas direcciones */
+.scroll { overflow: scroll; }
+
+/* Scrool solo en la/s dirección/es necesarias */
+.auto { overflow: auto; }
