@@ -1,0 +1,56 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/*
+@keyframes nombre-animacion {}
+*/
+
+@keyframes colores-tamaño {
+    from {
+        background: #9eb3c2;
+        width: 250px;
+        height: 200px;
+    }
+
+    to {
+        background: #fff;
+        width: 0;
+        height: 0;
+    }
+}
+
+@keyframes mover {
+    33% { transform: translateX(100px); }
+    66% { transform: translateY(100px); }
+    100% { transform: translate(0px, 0px); }
+}
+
+div {
+    width: 200px;
+    height: 200px;
+    background: #9eb3c2;
+    margin: 20px;
+}
+
+/*
+Formas de llamar la animación
+*/
+
+.colores-mover {
+    animation-name: colores-tamaño;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+.mover { animation: mover 6s linear 2 1; }
+/*
+aimation: nombre-animacion tiempo efecto cantidad-veces;
+*/
+
+
+/*
+animation: mover 6s linear 2 1 alternate;
+alternate: va y viene
+*/

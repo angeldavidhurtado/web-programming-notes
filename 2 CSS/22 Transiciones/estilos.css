@@ -1,0 +1,43 @@
+div {
+    box-sizing: border-box;
+    background: #21295c;
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+    padding: 63px 0;
+}
+
+div:hover {
+    background: #9eb3c2;
+    width: 400px;
+    transition-delay: .5s;
+    /* Tiempo antes de iniciar la transición */
+}
+
+p {
+    font-family: Arial;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+}
+
+/*
+Transiciones
+propiedad-a-la-que-se-le-aplica-la-transición duraión efecto
+
+transition: background 2x linear;
+
+Velocidades de curva
+               Entrada  Durante  Salida
+ease           lento    rápido   lento
+linear         igual    igual    igual
+ease-in        lento    igual    igual
+ease-out       igual    igual    lento
+ease-in-out    lento    igual    lento
+*/
+
+.ease { transition: all 2s ease; }
+.linear { transition: all 2s linear; }
+.ease-in { transition: all 2s ease-in; }
+.ease-out { transition: all 2s ease-out; }
+.ease-in-out { transition: all 2s ease-in-out; }

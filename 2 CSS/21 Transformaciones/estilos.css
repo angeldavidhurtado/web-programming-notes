@@ -1,0 +1,29 @@
+div {
+    background: #ffaa5a;
+    width: 200px;
+    height: 200px;
+
+    transform: translate(300px, 200px) scale(2, 1.5) rotate(20deg) skew(0deg, 45deg);
+
+    /*
+    Trasladar (x, y)
+    translate(100px, 200px)
+    translateX(200px)
+    translateY(100px)
+    */
+
+    /*
+    Escalar (x, y)
+    scale(3, 3)
+    */
+
+    /*
+    Rotar
+    rotate(45deg)
+    */
+
+    /*
+    Sesgar
+    skew(20deg, 45deg)
+    */
+}

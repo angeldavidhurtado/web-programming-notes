@@ -1,0 +1,49 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.padre {
+    max-width: 1000px;
+    width: 90%; /* Trabajar width con porcentajes */
+    height: 300px;
+    padding: 20px;
+    background: purple;
+}
+
+.hijo {
+    width: 100%;
+    background: orange;
+    height: 100%;
+}
+
+/*
+Cuando estemos en una pantalla y tenga un ancho máximo de
+Cuando el ancho de la pantalla sea menor de
+*/
+@media screen and (max-width: 700px) {
+    .padre {
+        width: 100%;
+    }
+}
+
+/*
+Cuando estemos en una pantalla y tenga un ancho mínimo de
+Cuando el ancho de la pantalla sea mayor de
+*/
+@media screen and (min-width: 900px) {
+    body {
+        background: green;
+    }
+}
+
+/*
+    Ancho
+@media screen and (max-width: 300px) - Cuando la pantalla sea menor a 300px, sin ;
+@media screen and (min-width: 300px) - Cuando la pantalla sea mayot a 300px, sin ;
+
+   Alto
+@media screen and (max-height: 300px) - Cuando la pantalla sea menor a 300px, sin ;
+@media screen and (min-height: 300px) - Cuando la pantalla sea mayor a 300px, sin ;
+*/

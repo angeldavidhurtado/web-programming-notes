@@ -1,0 +1,116 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f2f2f2;
+    font-family: Arial;
+}
+
+.padre {
+    width: 90%;
+    height: 500px;
+    max-width: 1200px;
+    background-color: #212d40;
+    margin: 20px auto;
+
+    display: flex;
+
+    /*
+    flex-direction: row;    fila - izquierda a derecha
+    flex-direction: row-reverse;    fila invertida - derecha a izquierda
+    flex-direction: column;    columna - arriba a abajo
+    flex-direction: column-reverse;    columna invertida - abajo a arriba
+    */
+
+    /*
+    flex-wrap: nowrap;    no envolver - trata de ajustar el ancho de los hijos para ocupar una sola linea
+    flex-wrap: wrap;    envolver - salta a la siguiente linea
+    flex-wrap: wrap-reverse;    envolver al reves - salta a la siguiente linea en sentido opuesto
+    */
+    
+    /* flex-flow: flex-direction flex-wrap;    combinacion */
+
+    
+    
+    /*
+    justify-content: flex-start;    alinea al inicio
+    justify-content: flex-end;    alinea al final
+    justify-content: center;    centrar
+    justify-content: space-between;    justificar
+    justify-content: space-around;
+    justify-content: space-evenly;
+    */
+
+
+    /*
+    En sentido perpendicular al flujo ( trabaja con una sola linea de elementos, en caso de ser mas divide el espacio )
+    align-items: flex-start;    inicio
+    align-items: center;    sentrar
+    align-items: flex-end;    fin
+    align-items: stretch;    si el hijo no tiene alto o ancho abarca el 100% segun corresponda
+    align-items: baseline;    alinea a la base de la fuente
+    */
+
+    /*
+    En sentido perpendicular al flujo trabaja con barias lineas de elementos
+    align-content: flex-start;    inicio
+    align-content: center;    centrado
+    align-content: flex-end;    fin
+    align-content: space-between;    justificado
+    align-content: space-around;    justificado con margen
+    */
+}
+
+.caja {
+    width: 350px;
+    height: 100px;
+    background-color: #f79257;
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+    font-size: 40px;
+    color: #fff;
+    flex-shrink: 1;
+    font-size: 50px;
+}
+
+.uno {
+    /*
+    order: ;
+    Cambia el orden en el que se posicionan los hijos empezando por el que tenga el menor valor
+    order: 0;    valor inicial
+    */
+
+
+
+    /*
+    flex-grow: ;
+    Recibe un número, el cual indica la cantidad de unidades a aumentar o disminuir en relación a las que aumentas los demás
+
+    A - flow-grow: 1;    ( tambien se aceptan valores decimales 4.5 )
+    B - flex-grow: 2;
+    Por cada unidad que aumente/disminuya A, B aumenta/disminuye 2 y así sucesivamente hasta ocupar el 100% del contenedor padre
+    */
+
+    /*
+    flex-shrink: ;
+    Igual a flex-grow pero, funciona únicamente al encoger, pude ser utilizado simultáneamente con flex-grow
+    */
+
+    /* flex-basis: ;    Igual a width */
+
+    /* flex: flex-grow flex-shrink flex-basis; */
+
+
+
+    /*
+    align-self: flex-start;    inicio
+    align-self: center;    sentrado
+    align-self: flex-end;    fin
+    align-self: baseline;    base del texto ( solo entre los elementos que tengan esta propiedad )
+    align-self: stretch;    ocupa el 100% ( height: auto; width: auto; según corresponda )
+    */
+}
