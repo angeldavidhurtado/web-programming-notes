@@ -1,0 +1,42 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial;
+    background: #21295c;
+    color: #cf5c36;
+}
+
+form {
+    width: 300px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #eee5e9;
+    text-align: center;
+}
+
+form p {
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+
+form input[type="text"] {
+    text-align: center;
+    font-size: 16px;
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+form input[type="button"] {
+    width: 100%;
+    background: #cf5c36;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    padding: 20px;
+    font-size: 16px;
+}
