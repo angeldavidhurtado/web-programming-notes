@@ -1,0 +1,176 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: url("img/fondo.jpg") no-repeat fixed center center;
+    background-size: cover;
+
+    font-family: sans-serif;
+}
+
+.contenedor {
+    width: 90%;
+    max-width: 1000px;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+
+
+/* --- --- --- Header --- --- --- */
+header {
+    width: 100%;
+    padding: 50px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    margin-left: 40px;
+}
+
+header nav a:hover {
+    text-decoration: underline;
+}
+
+
+
+/* --- --- --- Main --- --- --- */
+main {
+    background-color: #fff;
+    padding: 20px;
+    width: 70%;
+}
+
+main article .thumb { margin-bottom: 20px; }
+
+main article .thumb img {
+    width: 100%;
+    vertical-align: top;
+}
+
+main article h2 {
+    font-size: 32px;
+    font-weight: normal;
+    margin-bottom: 20px;
+}
+
+main article p {
+    margin-bottom: 20px;
+    font-size: 14px;
+    line-height: 27px;
+}
+
+
+
+/* --- --- --- Aside --- --- --- */
+aside {
+    width: 30%;
+    background-color: #537dca;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+aside .ad {
+    font-size: 30px;
+    text-align: center;
+    color: #fff;
+    padding: 50px 0;
+    width: 100%;
+    background: #4262a2;
+}
+
+
+
+/* --- --- --- Footer --- --- --- */
+footer {
+    width: 100%;
+    margin: 20px 0;
+    padding: 20px;    
+    background-color: rgba(255, 255, 255, .2);
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+}
+
+footer .redes-sociales a {
+    color: #fff;
+    text-decoration: underline;
+    margin-left: 20px;
+}
+
+footer .redes-sociales a:hover { text-decoration: none; }
+
+
+
+/* --- --- --- 850px --- --- --- */
+@media screen and (max-width: 850px) {
+    main { width: 100%; }
+
+    aside {
+        width: 100%;
+        flex-direction: row;
+    }
+
+    aside .ad { width: 100%; }
+    .ultimo-ad{ margin-left: 20px; }
+}
+
+
+
+/* --- --- --- 700px --- --- --- */
+@media screen and (max-width: 700px) {
+    header {
+        flex-direction: column;
+        padding-bottom: 20px;
+    }
+
+    header .logo img { vertical-align: top; }
+
+    header nav {
+        padding: 20px 0;
+        margin-top: 20px;
+        width: 100%;
+        background-color: rgba(255, 255, 255, .2);
+        text-align: center;
+    }
+
+    header nav a { margin: 0 20px; }
+}
+
+
+
+/* --- --- --- 600px --- --- --- */
+@media screen and (max-width: 600px) {
+    footer {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    footer .autor {
+        order: 1;
+        margin-top: 20px;
+    }
+
+    footer .redes-sociales a {
+        margin: 0 20px;
+    }
+}
+
+
+
+/* --- --- --- 550px --- --- --- */
+@media screen and (max-width: 550px) {
+    aside { display: none; }
+}

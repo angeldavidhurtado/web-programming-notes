@@ -1,0 +1,155 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Sans-serif;
+    font-size: 16px;
+    background: #4a465b;
+}
+
+.centrar {
+    max-width: 1000px;
+    width: 90%;
+    margin: 20px auto;
+}
+
+
+
+/* --- --- --- Menú de navegación --- --- --- */
+
+header { background: #fff; }
+
+header nav ul {
+    overflow: hidden;
+    list-style: none;
+}
+
+header nav ul li {
+    float: left;
+    /* display: inline-block; */
+}
+
+header nav ul li a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 15px 20px;
+    color: #000;
+}
+
+header nav ul li a:hover {
+    background: #000;
+    color: #fff;
+}
+
+
+
+/* --- --- --- main --- --- --- */
+
+.main {
+    width: 70%;
+    max-width: 700px;
+    float: left;
+}
+
+.main .imagen img {
+    width: 100%;
+    vertical-align: top; /* Quita el margen inferior */
+}
+
+/* Posts */
+.main .posts {
+    background: #fff;
+    padding: 40px;
+}
+
+h2 {
+    margin-top: 60px;
+    margin-bottom: 20px;
+    color: #424242;
+}
+
+.primero { margin-top: 0; }
+
+.main .posts article p {
+    line-height: 27px;
+    margin-top: 20px;
+}
+
+
+.main .posts article p:nth-child(2) {
+    margin-top: 0;
+}
+
+
+
+/* --- --- --- aside --- --- --- */
+aside {
+    width: 30%;
+    max-width: 300px;
+    background: #161f26;
+    padding: 20px;
+    color: #fff;
+    float: left;
+}
+
+aside .widget .titulo {
+    color: #ff8000;
+    border-bottom: 1px solid #ff8000;
+    margin-bottom: 10px;
+}
+
+aside .widget ul {
+    list-style: none;
+    margin-bottom: 20px;
+}
+
+aside .widget li {
+    border-bottom: 1px solid rgba(255, 255, 255, .2);
+    padding: 10px 0;
+}
+
+aside .widget li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+aside .widget li a:hover { color: #8f8f8f; }
+
+aside .widget p { line-height: 27px; }
+
+
+
+/* --- --- --- footer --- --- --- */
+footer {
+    clear: both;
+    width: 70%;
+    max-width: 700px;
+    background: #000;
+    padding: 15px;
+}
+
+footer {
+    color: #fff;
+    text-align: center;
+}
+
+
+
+@media screen and (max-width: 860px) {
+    .main, aside, footer {
+        max-width: 100%;
+        width: 100%
+    }
+}
+
+
+
+@media screen and (max-width: 460px) {
+    .centrar {
+        width: 100%;
+        margin: 0;
+    }
+}
