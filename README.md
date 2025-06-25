@@ -6,6 +6,20 @@ Este repositorio contiene mis apuntes, ejercicios y prácticas desarrolladas dur
 
 <br>
 
+## Prácticas
+
+| Práctica | Código | Sitio web |
+| --- | --- | --- |
+| HTML | [Ver](https://github.com/angeldavidhurtado/web-programming-notes/tree/main/Pr%C3%A1cticas/1%20HTML) | [Visitar](https://angeldavidhurtado.github.io/web-programming-notes/1%20HTML/) |
+| CSS 1 | [Ver](https://github.com/angeldavidhurtado/web-programming-notes/tree/main/Pr%C3%A1cticas/2%20CSS/1) | [Visitar](https://angeldavidhurtado.github.io/web-programming-notes/2%20CSS/1/) |
+| CSS 2 | [Ver](https://github.com/angeldavidhurtado/web-programming-notes/tree/main/Pr%C3%A1cticas/2%20CSS/2) | [Visitar](https://angeldavidhurtado.github.io/web-programming-notes/2%20CSS/2/) |
+| CSS 3 | [Ver](https://github.com/angeldavidhurtado/web-programming-notes/tree/main/Pr%C3%A1cticas/2%20CSS/3) | [Visitar](https://angeldavidhurtado.github.io/web-programming-notes/2%20CSS/3/) |
+| CSS 4 | [Ver](https://github.com/angeldavidhurtado/web-programming-notes/tree/main/Pr%C3%A1cticas/2%20CSS/4) | [Visitar](https://angeldavidhurtado.github.io/web-programming-notes/2%20CSS/4/) |
+| JavaScript | [Ver](https://github.com/angeldavidhurtado/web-programming-notes/tree/main/Pr%C3%A1cticas/3%20JavaScript/1%20Calculadora) | [Visitar](https://angeldavidhurtado.github.io/web-programming-notes/3%20JavaScript/1%20Calculadora/) |
+| Portafoleo | [Ver](https://github.com/angeldavidhurtado/web-programming-notes/tree/main/Pr%C3%A1cticas/4%20Portafoleo) | [Visitar](https://angeldavidhurtado.github.io/web-programming-notes/4%20Portafoleo/) |
+
+<br>
+
 ## Agradecimientos
 
 Quiero agradecer profundamente:
