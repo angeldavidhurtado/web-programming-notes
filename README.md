@@ -1,3 +1,5 @@
+<br>
+
 <h1 align="center">Curso de HTML, CSS y JavaScript</h1>
 
 <br>
@@ -32,3 +34,5 @@ Quiero agradecer profundamente:
 * Y a **mí mismo**, por cultivar esta curiosidad insaciable de comprender cómo funciona hasta el último detalle del desarrollo web.
 
 Gracias a todos estos pilares, este repositorio hoy existe.
+
+<br>
