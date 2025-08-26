@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<style>
+		/* Variables para los colores */
+		html.light {
+			--color-texto: #333;
+			--color-fondo: #fff;
+			--color-borde: #ccc;
+		}
+
+		html.dark {
+			--color-texto: #fff;
+			--color-fondo: #333;
+			--color-borde: #555;
+		}
+
+		/* Colores por defecto del sistema */
+		/*
+		esto se utiliza solo con el tema del sistema
+		pero si se quiere poder elegir entre el tema
+		del sistema, entre claro y oscuro fijos,
+		entonces ahí se utilizan las clases de arriba
+		@media (prefers-color-scheme: dark) {
+			:root {
+				--color-texto: #fff;
+				--color-fondo: #333;
+				--color-borde: #555;
+			}
+		}
+		*/
+
+		/* Estilos de la página */
+		body {
+			background-color: var(--color-fondo);
+			color: var(--color-texto);
+			transition: background-color 0.3s, color 0.3s;
+		}
+	</style>
+</head>
+<body>
+	<h1>Hola mundo</h1>
+</body>
+</html>
